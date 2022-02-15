@@ -85,16 +85,16 @@ const questions = [
     ]
   },
   {
-    question: 'Who is the best YouTuber?',
+    question: 'Who is the Best Quran Reciter',
     answers: [
-      { text: 'Web Dev Simplified', correct: true },
-      { text: 'Traversy Media', correct: true },
-      { text: 'Dev Ed', correct: true },
-      { text: 'Fun Fun Function', correct: true }
+      { text: 'maasarawi', correct: true },
+      { text: 'sudais', correct: true },
+      { text: 'juhany', correct: true },
+      { text: 'hani rifai', correct: true }
     ]
   },
   {
-    question: 'Is web development fun?',
+    question: 'Is reading Quran amazing?',
     answers: [
       { text: 'Kinda', correct: false },
       { text: 'YES!!!', correct: true },
