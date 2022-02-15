@@ -88,13 +88,13 @@ const questions = [
     question: 'Who is the Best Quran Reciter',
     answers: [
       { text: 'maasarawi', correct: true },
-      { text: 'sudais', correct: true },
-      { text: 'juhany', correct: true },
-      { text: 'hani rifai', correct: true }
+      { text: 'sudais', correct: false },
+      { text: 'juhany', correct: false },
+      { text: 'hani rifai', correct: false }
     ]
   },
   {
-    question: 'Is K man A wasteman?',
+    question: 'Is abdiWali a Simp?',
     answers: [
       { text: 'Kinda', correct: false },
       { text: 'YES!!!', correct: true },
