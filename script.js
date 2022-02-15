@@ -94,7 +94,7 @@ const questions = [
     ]
   },
   {
-    question: 'Is reading Quran amazing?',
+    question: 'Is K man A wasteman?',
     answers: [
       { text: 'Kinda', correct: false },
       { text: 'YES!!!', correct: true },
