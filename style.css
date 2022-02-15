@@ -2,7 +2,14 @@
 box-sizing: border-box;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+:root {
+    --hue-neutral:200;
+    --hue-wrong:0;
+    --hue-correct:145;
+}
+
 body{
+    --hue: var(--hue-neutral);
     padding: 0;
     margin: 0;
     display: flex;
@@ -10,4 +17,12 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
+}
+
+
+body.correct {
+    --hue: var(--hue-correct);
+}
+body.wrong {
+    --hue: var(--hue-wrong);
 }
